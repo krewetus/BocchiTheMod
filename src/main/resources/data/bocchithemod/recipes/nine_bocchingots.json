@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bocchithemod:blockofbocchinium"
+    }
+  ],
+  "result": {
+    "item": "bocchithemod:bocchingot",
+    "count": 9
+  }
+}

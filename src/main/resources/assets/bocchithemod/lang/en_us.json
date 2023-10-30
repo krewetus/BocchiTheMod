@@ -1,6 +1,9 @@
 {
   "item.bocchithemod.bocchingot": "Bocchingot",
-  "item.bocchithemod.blockofbocchinium": "Block of Bocchinium",
+  "item.bocchithemod.rawbocchingot": "Raw Bocchingot",
+
+  "block.bocchithemod.blockofbocchinium": "Block of Bocchinium",
+  "block.bocchithemod.blockofrawbocchinium": "Block of Raw Bocchinium",
 
   "creativetab.bocchi_tab": "Bocchi The Mod"
 }

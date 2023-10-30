@@ -1,6 +1,7 @@
 package com.shrimpo.bocchithemod.item;
 
 import com.shrimpo.bocchithemod.BocchiTheMod;
+import com.shrimpo.bocchithemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,7 +20,9 @@ public class ModCreativeModTabs {
                         .title(Component.translatable("creativetab.bocchi_tab"))
                         .displayItems((pParameters, pOutput) -> {
                             pOutput.accept(ModItems.BOCCHINGOT.get());
-                            pOutput.accept(ModItems.BLOCKOFBOCCHINIUM.get());
+                            pOutput.accept(ModItems.RAWBOCCHINGOT.get());
+                            pOutput.accept(ModBlocks.BLOCKOFBOCCHINIUM.get());
+                            pOutput.accept(ModBlocks.BLOCKOFRAWBOCCHINIUM.get());
                         })
                         .build());
 

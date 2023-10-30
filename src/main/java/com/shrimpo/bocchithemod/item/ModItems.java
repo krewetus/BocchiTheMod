@@ -14,8 +14,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BOCCHINGOT = ITEMS.register("bocchingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BLOCKOFBOCCHINIUM = ITEMS.register("blockofbocchinium",
+    public static final RegistryObject<Item> RAWBOCCHINGOT = ITEMS.register("rawbocchingot",
             () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

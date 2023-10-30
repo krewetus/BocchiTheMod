@@ -1,9 +1,9 @@
 package com.shrimpo.bocchithemod;
 
 import com.mojang.logging.LogUtils;
+import com.shrimpo.bocchithemod.block.ModBlocks;
 import com.shrimpo.bocchithemod.item.ModCreativeModTabs;
 import com.shrimpo.bocchithemod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +28,7 @@ public class BocchiTheMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
